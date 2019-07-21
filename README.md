@@ -3,7 +3,7 @@ This repo contains the autostarsuite help files converted to a modern format.
 
 ## Conversion Process:
 
-I followed [this](http://www.help-info.de/en/Help_Info_WinHelp/hw_converting.htm#Conversion) tutorial.
+I followed [this](http://www.help-info.de/en/Help_Info_WinHelp/hw_converting.htm#Conversion) tutorial. The release contains all of the files I used for the process.
 
 ### Step 1 - Decompile the hlp file:
 Download [HELPDECO Command Program Launcher](http://www.help-info.de/en/Help_Info_WinHelp/hw.htm) and HlpDecoGUI. When you open HlpDecoGUI point the executable to HELPDECO.EXE in the HELPDECO directory. Open the .hlp file and set the destination directory. The decompiler will generate several files one of which will be an .hpj. This will be the target of Help Workshop.
