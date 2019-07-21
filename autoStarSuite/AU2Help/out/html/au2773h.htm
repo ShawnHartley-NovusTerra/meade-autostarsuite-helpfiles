@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>How To Create Custom User Catalogs</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="creating custom catalogs">
+	<PARAM NAME="Keyword" VALUE="custom catalogs">
+	<PARAM NAME="Keyword" VALUE="custom user objects">
+</OBJECT>
+
+<P><A NAME="how_to_create_custom"></A><B>How To Create Custom User Catalogs (Autostar II Only)</B></P>
+
+<P><B>To Manipulate Custom User Objects, Revision 1.3o or higher of the Autostar II Software is required.</B></P>
+
+<P>Before creating a Custom User Catalog, consider carefully the data that will be stored in that object.  Each catalog can have 6 user-defined fields of 15 characters total, including the field name and data.  For example, a field labeled "FIELDNAME" may have the data "123456" contained within it.  The data is stored and displayed as pure character data, so decimal points are counted as a character, and any combination of letters and numbers and other characters may be used.  For example, the above field may contain "123.4%".  Of course, there is no minimum requirement except that the label is at least one character, so FieldName: "1" with data "" is acceptable.  There are 3 characters that are not allowed in either field names or data.  These are ‘:’, ‘#’, and ‘,’.</P>
+
+<P>Custom User Catalogs may only be created from within the Autostar Update software.  To do so, select an empty Custom User Object by right-clicking on the User Object type button in either list view.  Empty catalogs are given a default name of "UndefinedX", where "X" is a sequential number between 1 and 20.  Within the list view window, right-click to display the list view context menu.  Select "new" from this menu to display the "Define New User Catalog" Dialog Box.</P>
+
+<P>Within the dialog box, enter a name for this Catalog, and define up to 6 new fields by typing each field’s name in "Field Name:".  As the name is typed, the number of characters available for data is displayed.  The longer the field name, the shorter the data must be.  Click "Add" to add each new field.  When the catalog has been defined, click "OK" to proceed.</P>
+
+<P>The "Autostar Update Object Editor" Dialog Box will now be displayed so object data may be entered.  Note that there must be at least one object in a catalog, or its definition will be lost.  To delete a custom catalog, simply delete all objects within that catalog.</P>
+
+<P>For information on managing <A HREF="au2252w.htm">Custom User Objects</A> including transferring between list views and the handbox, see <A HREF="au298rx.htm">Managing Custom User Objects</A>.</P>
+
+</BODY>
+</HTML>

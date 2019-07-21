@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Prescaling 12 or 16 bit images</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="prescale">
+</OBJECT>
+
+<P><A NAME="37ya0gt"></A><B>Prescale</B></P>
+
+<P><B>8 Bit versus 12 or 16 Bit Images</B></P>
+
+<P>When floating point, 12 or 16 bit images are loaded, they are first be compressed down to 8 bits (256 gray levels).  To prevent the loss of important data, Meade Autostar Suite IP automatically senses the larger data format and displays the <B>Image Prescale</B> dialog box, which allows either automatic or manual setting of the parameters used to compress the data into an 8 bit format.  This dialog box displays the histogram of the actual bit data in a large graph at the top and, at the bottom,  a smaller graph of the resulting data after compression.</P>
+
+<P><IMG SRC="../images/bm1.gif" ALT="" BORDER=0></P>
+
+<P>If an image is loaded in a larger bit format, a histogram is constructed that shows the distribution of the data contained in the image.  Normally the data is distributed in a rather narrow range of values which lends itself to scaling to the 8 bit format.  Once the histogram is constructed, the Threshold values of the data is calculated and are used to set the scaling range.    This gives a reasonable starting point for scaling most images.  The threshold values may be reset at any time by pressing the <B>Threshold</B> button.</P>
+
+<P>Since the data is not evenly distributed, some fine-tuning of the limits is usually needed.  This is accomplished by using one of the predefined scaling options or by moving the red markers located under the main histogram display.  Generally, the best images are obtained with the markers set just at the high and low edges of the important data.  Values that are above the upper marker result in pure white pixels, while those below result in pure black.</P>
+
+<P>If the <B>Std.</B> <B>Dev. </B>button is depressed the Mean and Standard Deviation of the image are calculated.  The upper limit is set to the Mean plus 5 Standard Deviations, while the lower limit is set to the Mean minus 1 Standard Deviation.</P>
+
+<P>The <B>Min Max</B> button sets the pointers to the extreme minimum and maximum values contained in the image, while <B>Full Scale</B> sets the values to 0 and 65535 which are the minimum and maximum values possible in a 16 bit image.</P>
+
+<P>If you are loading images from an RGB composite set of files, you may find it useful to use the same scaling values for each of the individual images.  This is easily accomplished by using the <B>Use Previous Scale Values</B> button located at the bottom the dialog box.  Since many astronomical images contain a large amount of red light, you may want to load the red image first, scale it properly, then use the same scaling values for both the green and blue images.</P>
+
+</BODY>
+</HTML>

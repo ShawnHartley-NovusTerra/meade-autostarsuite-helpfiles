@@ -1,0 +1,9 @@
+HELPDECO dissects HLP help files of Windows 3.0, 3.1, 3.11, and '95 and many MVB multi media viewer titles into all files required for a rebuild using the appropriate help compiler HC30, HC31, HCP, HCW, HCRTF, WMVC, MMVC or MVC:
+HPJ - help project file, use as parameter when calling help compiler
+MVP - multi media project file, parameter for multi media help compiler
+RTF - text file containing whole content of help file and all footnotes
+PH  - phrases file (same as produced by help compiler)
+ICO - icon of help file if embedded
+BMP/WMF/SHG/MRB - embedded pictures in appropriate format
+Baggage - all baggage files contained in help file
+* FREEWARE by <a href="mailto:100326.2776@compuserve.com">100326.2776@compuserve.com (Manfred Winterhoff)</a>

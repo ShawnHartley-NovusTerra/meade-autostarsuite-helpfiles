@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Image Convolution command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="convolution">
+</OBJECT>
+
+<P><A NAME="bnl6vx"></A><B>Convolution (Process menu)</B></P>
+
+<P>The <B>Convolution</B> dialog box displays the kernel values of the current convolution filter and allows you to select from a list of pre-defined kernels or to enter your own values.  See the Appendix for a description of image convolution.</P>
+
+<P><IMG SRC="../images/bm26.gif" ALT="" BORDER=0></P>
+
+<P>The <B>Normal</B> button constructs a filter that does not alter the original image when the convolution process is started.  This allows you to reset the kernel to a normal starting point when you are constructing your own kernels.</P>
+
+<P>The <B>Smooth</B> button builds a kernel that subtly blurs the image, reducing the effect of any noise that may be present in the image.  Lowering the value of the center number in the kernel increases the smoothing effect.  While increasing the value reduces the effect.</P>
+
+<P>The <B>Sharpen</B> button is useful in bringing out the details in images that originally appear somewhat blurred.  This effect is different than <B>Unsharp Masking,</B> but can appear similar in some images.</P>
+
+<P>The <B>Edge Enhance</B> and <B>Edge Only</B> kernels are quite similar except for the value at the center of the kernel.  Their effect is to enhance the appearance of any edges (transitions) from light to dark.  The <B>Edge Enhance</B> maintains the overall appearance of the image, but modifies the edges, while the <B>Edge Only</B> filter displays only the edge modifications.</P>
+
+<P>The <B>Average</B> button merely sets all of the kernel values to 1.0 resulting in a 5x5 pixel average (blurring) of the image.  The <B>Clear</B> button sets all the values to 0.0.  This can be used to set the starting values in your own custom filter.</P>
+
+<P><B>Short Cut:</B><IMG SRC="../images/bm10.gif" ALT="" BORDER=0></P>
+
+</BODY>
+</HTML>

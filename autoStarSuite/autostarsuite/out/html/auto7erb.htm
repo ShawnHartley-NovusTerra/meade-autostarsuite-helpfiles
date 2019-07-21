@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Starmap Viewpoint command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="viewpoint">
+</OBJECT>
+
+<P><A NAME="7ns9zw"></A><B>Viewpoint</B></P>
+
+<P>The Viewpoint command allows you to select what point in the sky will be the center of the display. When this command is selected, several sub choice are available:</P>
+
+<P>NorthShow the sky as seen from the ground looking north.</P>
+
+<P>SouthShow the sky as seen from the ground looking south.</P>
+
+<P>EastShow the sky as seen from the ground looking east.</P>
+
+<P>WestShow the sky as seen from the ground looking west.</P>
+
+<P>ZenithShow the sky as seen from the ground looking straight up.</P>
+
+<P>CustomBring up the Viewpoint Dialog.</P>
+
+<P>The Viewpoint dialog box allows you to set the current R.A. and Dec. values for the center of the Starmap display.  This value corresponds to the Zenith point (the point directly overhead) of the observer. Autostar Suite assumes that all coordinates are referenced to the equator and equinox of epoch J2000.0.</P>
+
+<P>If you already know the coordinates of the object, merely enter the Right Ascension in hours, minutes and seconds, and the Declination in degrees, minutes and seconds, then select the OK button.  If the Starmap is turned on, it will be redrawn with your coordinates at the center of the screen.  If the display is off, the zenith coordinates will be used when the map is turned on.</P>
+
+<P>If you want to see the sky as it appears at the current time, date and location that was previously entered, you must enter the current Sidereal time as the R.A. value and the location latitude as the Dec.  Additionally, the Epoch value should be set to the epoch of date.  This can be easily accomplished by selecting the Goto Current Zenith button.</P>
+
+<P>To maintain a consistent point of reference of celestial objects, a fixed reference frame must be established.  Currently there are two different reference systems in use: the Julian reference (FK5) and the Besselian reference (FK4).  The Julian system is based on a year that is exactly 365.25 days in length.  The Besselian system is based on the tropical year, which varies from year to year.  In 1984, the International Astronomical Union adopted the Julian system and established that the new standard reference (Epoch) will be called J2000.0.  J2000.0 begins on 2000 January 1, at 12:00 noon Dynamical Time (TD).</P>
+
+<P>To allow you to input coordinates from another epoch, such as B1950.0, that epoch value must be entered into the Epoch field.  To select the Besselian reference frame (FK4) select the FK4 (Fundamental Katalog 4) button, the Epoch field will then be set to B1950.0.  You may change the epoch year value, but the Besselian reference will be used instead of the Julian reference.  Selecting the FK5 (Fundamental Katalog 5) button sets the Epoch to J2000.0.  Again, you can change the year value, but the Julian reference will remain.</P>
+
+<P><IMG SRC="../images/bm28.gif" ALT="" BORDER=0></P>
+
+<P>If you are entering star coordinates from a catalog other than one referenced to J2000.0, you should enter the appropriate reference frame, FK4 or FK5 and set the catalog's epoch value.  You should also enter the star's proper motion in both R.A. and Dec. to accurately locate the star.</P>
+
+<P>When the OK button is selected, all of the entered values will automatically be transformed from FK4 to FK5 if needed, then star's proper motion will be applied, then the coordinates will be precessed from the epoch year to J2000.0 .  If you redisplay the Set Viewpoint dialog box, you will see the epoch value reset to J2000.0 and the coordinates will now show their corrected J2000.0 positions.</P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Image Palettes command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="palette selection">
+</OBJECT>
+
+<P><A NAME="j7lcrz"></A><B>Palettes (View menu)</B></P>
+
+<P>The <B>Palettes</B> dialog box allows you to modify the original palette of the image or to change the palette to completely different sets of colors</P>
+
+<P><IMG SRC="../images/bm23.gif" ALT="" BORDER=0></P>
+
+<P>The pushbuttons at the top of the dialog box loads a new palette and resets the positions of the Start Color and Width scroll bars.</P>
+
+<P>The <B>Original</B> button resets the palette to the values that were contained in the original image</P>
+
+<P>The <B>16 Color</B> button loads the standard 16 colors into the palette.  This is useful on VGA systems that are running in 16 color mode.  The normal hardware palette values in VGA only support 3 shades of gray, but,  by using the <B>16 Color</B> palette and selecting the <B>Grayscale Palette</B> from the <B>Options</B> menu,  a full grayscale of 16 colors can be used.  This option changes ALL colors on the display (including all other windows) while in a standard VGA 16 color mode!</P>
+
+<P>The <B>16 Spectrum</B> button builds a set of 16 colors that smoothly transition from Black, Blue, Green, Red and ending with White.  The appearance of this palette varies depending on the current video driver.</P>
+
+<P>The <B>256 Gray</B> button constructs a unique grayscale palette that emulates a full 256 color grayscale.  The standard Extended or Super VGA 256 color modes only support 64 different shades of gray.  Using this new palette results in a smoother image compared to the 64 shades palette.  This is accomplished by using color values that vary slightly from the pure gray colors.  These off-color values are used to fill-in the steps between the 64 pure gray values.  If the <B>Night Vision</B> feature is active the <B>256 Gray</B> button becomes <B>256 Red</B> which allows the image to be displayed in red to preserve your night vision.</P>
+
+<P>The <B>256 Spectrum</B> button constructs a 256 color palette that smoothly transitions from Black, Blue, Green, Red and ends with White.  This palette is especially useful for bringing out subtle detail in the image.</P>
+
+<P><I>NOTE: The 256 color palettes, when used in a 16 color mode, will display dithered colors that approximate the actual values.  Their appearance in the image may differ greatly depending on the 16 color driver that is currently in use.</I></P>
+
+<P>Red, Green, Blue, and Yellow buttons construct single color pallet that terminate in white.</P>
+
+<P>The Pseudo button constructs a pallet that contains red, green, and blue values for a generic 8 bit color image.</P>
+
+<P>There are two scroll bars on either side of the palette display.  The uppermost scroll bar changes the starting color of the palette, while the lower one changes the width of the palette.  Moving the upper scroll bar to the right has the effect of shifting the colors to the right,  moving to the left moves the colors to the left.  The lower scroll bar allows the current palette values to be expanded or compressed.  Moving the lower scroll bar to the right expands the color palette, moving it to the left, compresses it and allows up to 5 cycles of the palette.</P>
+
+<P><I>NOTE: If the palette has been inverted using the <B>Invert</B> button, the action of these buttons may appear reversed.</I></P>
+
+<P>The <B>Invert</B> button swaps the colors in the palette end-for-end.  This is useful when displaying negative images (those that appear as dark subjects on a light background).  The button text changes to <B>Revert</B> to indicate that the displayed palette is reversed.</P>
+
+<P><B>Short Cut:</B><IMG SRC="../images/bm9.gif" ALT="" BORDER=0></P>
+
+</BODY>
+</HTML>

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Image Utilities dialog box</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="cropping images">
+	<PARAM NAME="Keyword" VALUE="distance measurement">
+	<PARAM NAME="Keyword" VALUE="listing pixel values">
+	<PARAM NAME="Keyword" VALUE="photometry">
+	<PARAM NAME="Keyword" VALUE="profiles">
+	<PARAM NAME="Keyword" VALUE="RGB auto alignment">
+	<PARAM NAME="Keyword" VALUE="RGB gray balance">
+</OBJECT>
+
+<P><A NAME="cdvcxt"></A><B>Image Utilities</B></P>
+
+<P>The <B>Image Utilities</B> dialog box can be displayed by moving the cursor over the desired area of the current image and either clicking the <B>left</B> mouse button or by depressing the <B>left</B> mouse button, drawing a <B>region selection rectangle</B>, then releasing the button.  Clicking on a point in the image will enable the <B>Set Distance Ref, Set Reference Magnitude, Determine Magnitude, Set Log File, or Edit Log File.</B> functions, drawing a rectangle enables the<B> </B>all of the other applicable image functions.  If the three RGB buffers are loaded, the <B>RGB Auto Alignment</B> and <B>RGB Gray Balance</B> functions will also be available after the rectangle is drawn.</P>
+
+<P><IMG SRC="../images/bm16.gif" ALT="" BORDER=0></P>
+
+<P><B>Region Selection Rectangle</B></P>
+
+<P>The region cursor has three main components: the Magnitude/Centroid area, the Pixel list area, and the Profile line.  The Magnitude/Centroid rectangle bounds the entire area used in the magnitude and/or centroid calculations.  This area can be as large as the entire image if desired. Finally, the Profile line delineates the pixels that will be displayed when the <B>Draw Line Profile</B> function is selected.</P>
+
+<P><IMG SRC="../images/bm17.gif" ALT="" BORDER=0></P>
+
+<P>The <B>Utilities Dialog</B> is displayed when the button is released. </P>
+
+<P>The <B>Set Distance Ref.</B> function allows you to measure distances, in pixels, from one point in the image to another.  The image <B>Coordinates</B> display or <B>Status Bar</B> must be active to use this function.</P>
+
+<P>Choosing this command, removes the dialog box, then draws a line from the distance reference point to the current cursor position.  As the cursor is moved, the current coordinates and the distance values will be continuously updated.  Clicking the <B>left</B> mouse button, turns-off the distance measuring feature.</P>
+
+<P>The <B>Rescale Size</B> command scales the image to approximately fill the current image window with the data contained within the previously drawn rectangle.  This command affects only the display of the image, not the actual data.</P>
+
+<P>The <B>Crop Image</B> command removes the data outside of the rectangle, preserving only the data on the inside.  This command allows you to remove extraneous data from around the important part of your image.  Since this command physically changes the size of the image, any existing data contained in the buffers is destroyed.  After the cropping is completed, the new image is copied into Buffer A.</P>
+
+<P>See the <B>RGB Merge</B> command for a description of the <B>RGB Auto Alignment</B> and the <B>RGB Gray Balance</B> functions.</P>
+
+<P><B>Set Log FIle</B></P>
+
+<P>This command allows you to name the file where tabular data is written by the program. The Log file can be used to save photometric measurments, lists of pixels from images and measurements information.</P>
+
+<P><B>Set Reference Magnitude</B></P>
+
+<P>To calculate the magnitude of any object in the current image, you must first select an object whose magnitude is already known, set its value as the reference by selecting the <B>Set Reference Magnitude</B> function, then select the unknown object and choose the <B>Determine Magnitude</B> function.  You should pick a well defined object, such as a star, whose values are below the maximum set by the size of the data format, 255 for an 8 bit image, 4095 for a 12 bit image, and 65535 for a 16 bit image.  A warning message will be displayed if the selected region contains any pixels that are at the maximum.  Erroneous values will result if you use objects that contain these pixel values since the actual brightness of these pixels in unknown. The dialog that appears when setting a reference magnitude is shown below:</P>
+
+<P><IMG SRC="../images/bm18.gif" ALT="" BORDER=0></P>
+
+<P>All magnitude calculations in Meade Autostar Suite IP are computed using aperture phtotometry. In this method, the energy with a fixed user settable aperture is computed, from this value, the sky background energy is subtracted.  The sky background energy is computed using a annulus around the target whose outer diameter can also be specified.  When setting a reference magnitude and determining magnitude the same aperture and annulus should be used. A typical result dialog is shown below:</P>
+
+<P><IMG SRC="../images/bm19.gif" ALT="" BORDER=0></P>
+
+<P>Using the previously set value of the reference magnitude, the <B>Determine Magnitude</B> calculates the total energy as in the <B>Set Reference Magnitude</B> command, but displays the magnitude of the currently selected region defined by the following equation:</P>
+
+<P><IMG SRC="../images/bm20.gif" ALT="" BORDER=0></P>
+
+<P>Where,</P>
+
+<P>RefMag is the previously set reference magnitude</P>
+
+<P>RefTotal is the total energy in the reference region</P>
+
+<P>and Total is the total energy in the currently selected region.</P>
+
+<P>If you checked auto loggging when setting the reference magnitude, every determined magnitude will automatically be written to the log file. If you did not select auto logging, you still can write a result to the log by clicking on the <B>Log</B>button.</P>
+
+<P>To perform photometry, draw a box around the area, or simply click on th object. </P>
+
+<P><B>Image Statistics</B></P>
+
+<P>If you draw a box around an object or area, the Image Statistics button will show you some key measurements on the selected area of the image. When you complete drawing the following dialog appears.</P>
+
+<P><IMG SRC="../images/bm21.gif" ALT="" BORDER=0></P>
+
+<P>It shows the centroid, average and standard of deviation of the area, count, FWHM and energy of the region..</P>
+
+<P><B>Find Centroid</B></P>
+
+<P>The <B>Find Centroid</B> function is similar to the magnitude functions except that it displays only the centroid data for the selected region.  This command is used when determining the exact positions of objects for use in astrometric applications.</P>
+
+<P><B>Draw Profile</B></P>
+
+<P>The diagonal line drawn through the Photometry Cursor indicates which pixels will be graphed by the <B>Draw Profile</B> command.  When this function is selected, a linearly scaled graph will be drawn which is automatically scaled to display the entire range of the pixel values along the line.  The left side of the graph displays the pixels values at the start of the cursor box.  Since you may draw the box in any orientation, you must keep track of the starting point.</P>
+
+<P><IMG SRC="../images/bm22.gif" ALT="" BORDER=0></P>
+
+<P>The profile graph is useful for viewing spectrographic data, or for viewing trends in the data, such as limb darkening in a planetary image.  In addition to ploting the pixel along the profile line, you can also use the control in the dialog to plot the sum of each column or each row.  The <B>Used Scaled Values</B> dialog determines whether the 8 bit scaled data is used for the plot or, when not checked, whether actual pixel vales are used.  The spectra type display on the bottom us useful in visually seeing the density along a profile.  A button is provided to write the numeric results to a text file for processing with external spread sheets or other tools.</P>
+
+<P><B>List Pixel Values</B></P>
+
+<P>The <B>List Pixel Values</B> function displays the values of the pixels contained within the smaller box located in one corner of the overall cursor rectangle.  </P>
+
+<P>As in the <B>Coordinate Display</B>, the pixel values are displayed. Buttons are provided to allow you to write the table of values out to the log file. </P>
+
+</BODY>
+</HTML>

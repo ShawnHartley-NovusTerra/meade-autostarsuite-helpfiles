@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Starmap Precision command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="precision">
+</OBJECT>
+
+<P><A NAME="1zqnw0n"></A><B>Precision</B></P>
+
+<P>To increase the display speed of the planets, comets and asteroids, the Precision menu allows you to choose the precision that best suits your requirements.  The lowest precision gives the fastest rendering time.  If you are interested in animating the motions of the all of the objects, choose the Low precision mode.  If you are animating only the comets or planets, the Medium mode will give positions that are very close to the actual positions, but will take slightly longer to calculate.  Finally, if you desire precision comparable to the Astronomical Almanac, choose the High mode.  This mode calculates values using the most rigorous forms of all the equations and corrections needed to accurately determine the objects position to sub-arcsecond accuracy.</P>
+
+<P>For the most accurate <B>Geocentric</B> (Earth centered) values, select the Geocentric option then choose the High precision mode.  By selecting the <B>Topocentric</B> precision mode, you will use the geocentric values that are also corrected for the current location and elevation.  This will give the values that pertain precisely to your selected location and time.</P>
+
+<P>The precision setting will be reflected in the displayed values in the Ephemeris tables, and in the resulting Right Ascension and Declination values shown in the Object Selection dialog box.  <I>Make sure you have selected the correct precision and reference before comparing the positions with published values!</I>.</P>
+
+<P>The three precision settings (Low, Medium and High) correspond to the three basic position references, Geometric, Astrometric and Apparent.</P>
+
+<P>The <B>Geometric</B> position (Low precision) is calculated without any of the corrections for the effects of light time, aberration, etc..  Additionally, the Geometric parameters are calculated at a lower precision to increase the speed of the calculations.</P>
+
+<P>The <B>Astrometric</B> position (Medium precision) is first calculated to the full precision (J2000.0) Geometric values, then the correction for light time is added.  The Astrometric mode is used for comparing the positions of Pluto and the asteroids and comets with the position of the stars.  The Astronomical Almanac shows the positions of Pluto and the minor planets in the Astrometric Geocentric mode.</P>
+
+<P>The <B>Apparent</B> position  (High precision) mode starts with the high precision Geometric values, then corrects for the light time effect, aberration, precession, nutation in obliquity and nutation in longitude.  The positions are referenced to the Equinox and Equator of Date, not the standard reference of J2000.0.  The Astronomical Almanac show the positions of the planets in the Apparent, Geocentric mode.  For the current 'TRUE' positions of the objects use the Apparent, Topocentric mode.</P>
+
+</BODY>
+</HTML>

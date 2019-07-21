@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Starmap Utilities dialog box</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="centering objects">
+	<PARAM NAME="Keyword" VALUE="distance measurement">
+	<PARAM NAME="Keyword" VALUE="utilities">
+</OBJECT>
+
+<P><A NAME="4cosnzp"></A><B>Starmap Utilities</B></P>
+
+<P>The Starmap Utilities dialog box is displayed by clicking the left mouse button anywhere on the Starmap display.  You would normally want to set the cursor over a particular object before clicking the button, but it is not required.</P>
+
+<P>The top of the Starmap Utilities box displays the current coordinates of the mouse in (Right Ascension and Declination) at the time the button was pressed.  Below the coordinate display is a number of buttons that allow you to select the available functions.</P>
+
+<P><IMG SRC="../images/bm29.gif" ALT="" BORDER=0></P>
+
+<P>The <B>Center Object</B> feature resets the Zenith coordinates to the current mouse coordinates and re-draws the starmap.  This allows you to quickly center the display on the area, or object, that you choose.</P>
+
+<P><B>Set Distance Reference</B> enables the distance measuring feature and locks its starting point to the current coordinates of the cursor.  With distance measuring enabled, you will notice an additional field in the Coordinate display.  The Dist. field shows the angular distance in degrees, minutes and seconds from the starting point to the current position of the cursor.  As you move the cursor you will see a line drawn from the starting point to the current position of the cursor.  Clicking the left mouse button disables the distance measuring feature.</P>
+
+<P><B>Object Description</B> attempts to find the object near the current mouse coordinates, and, if found, displays information describing the object.  If there are a number of objects very close together, it is recommended that you first Zoom into the area so that you can accurately locate the object.  If no object if found, a warning message is displayed.</P>
+
+<P>The <B>Add to User Data</B> function appends a new entry onto the currently selected User Object file using the R.A. and Dec. values displayed at the top of the dialog box.  These values are the coordinates of the mouse when the dialog box was created, NOT the coordinates of the object that may be near this location.</P>
+
+<P>After the OK button is depressed, the current object file is opened for editing by the Windows Notepad program.  You must then add an unique object ID and a description to the new entry which appears at the bottom of the list.  The object ID should normally increment sequentially from the first entry,  but you may have another numbering scheme for your observing run.  The only restriction is that each of the IDs must be unique within a given user object file.</P>
+
+<P><B>Slew Telescope</B> sends a command to the scope which will send it to the current mouse coordinates.</P>
+
+<P><B>Sync Telescope </B>synchronizes the telescope with the current mouse coordinates indicated in dialog window.</P>
+
+<P>The <B>Viewing Log</B> function allow you to keep records of your viewing session.  Information about the object can be entered, as well as, data pertinent to the viewing session.  New entries are added to the end of the database.  If you have an image of the selected area of the sky, you can include its filename.  When the record is printed, the image will be printed next to the description.</P>
+
+<P><B>Show Image</B>/<B>Get DSS Image</B> Autostar Suite has an extensive gallery of images of deep sky and solar system objects. If the object at the mouse coordinates has an image in the gallery, this button will display “Show Image” and clicking on this button opens a window with the object image for viewing.</P>
+
+<P>If Autostar Suite’s gallery does not contain an image of your object, the button will display “Get DSS Image”. Clicking on this buton will attempt to connect to the internet and retrieve an image from the Space Telescope Science Institudes Digitized Sky Survey.  The images in the DSS were taken with the Palomar Schmidt Camrera and UK-Schmidt camera.  After down loading the image will be displayed in a window over your starmap.</P>
+
+<P><B>Add to Tour </B>creates an entry in a tour file for the object at the mouse cursor location.  This one click method allows anyone to create an Autostar Tour by clicking on a sequence of object to view in an evening.  Once you have added all desired object to your tour, you can download them into your Autostar by selecting the <A HREF="auto6egb.htm">Autostar Updater</A> menu.</P>
+
+<P><B>Clear Tour </B>begins a new Autostar Tour. Starting a new tour will erase any object you have previously included in the tour.  You will be prompted to confirm you clear operation in case you have clicked this button in error. </P>
+
+</BODY>
+</HTML>

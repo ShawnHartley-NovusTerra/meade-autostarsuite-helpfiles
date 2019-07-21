@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Time Display command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="time display">
+</OBJECT>
+
+<P><A NAME="cawhej"></A><B>Time Display</B></P>
+
+<P>The Time Display function displays a modeless dialog box that allows you to continuously monitor all of the current times required by Autostar Suite.  Since the Time Display is modeless, you may keep the display active while using other program functions.  The display can be disabled either by selecting the Time Display menu item, or by double clicking the left mouse button on the symbol in the upper left corner of the display.</P>
+
+<P><IMG SRC="../images/bm24.gif" ALT="" BORDER=0></P>
+
+<P>The first time display is that of the Local Solar Time for the currently selected location.  If Autostar Suite is not connected to an observatory, this value is derived from the internal clock of the PC.  The current status of daylight savings time is shown below the Local Solar display.</P>
+
+<P>The Local Mean Solar Time is the actual local time based on the mean position of the sun.  This time, plus the value of the Equation of Time yields Local Apparent Solar Time, which is the time indicated by a sundial at the current location.</P>
+
+<P>The Universal Time display shows the value of the time at Greenwich, England.  This is the precise time used in all astronomical calculations.  The time returned from an observatory will be its current value of Coordinated Universal Time (UTC) corrected for its position.  The corrected time is then called UT1.  Observatories near the United States will probably be using (UTC) derived from radio station WWV or WWVH (Hawaii).</P>
+
+<P>If the Universal Time value reflects a time that is on a day different from the current local day, a warning is displayed below the display indicating that fact.  The message Next Day will be displayed if the UT day is greater than the current day, and Previous Day if it is less.  No message will be displayed if the UT and local days are the same.</P>
+
+<P>Finally, the Local Sidereal Time is shown.  This is the Local Apparent Sidereal Time for the current location.  Sidereal time is the Right Ascension of any object that is directly overhead (Zenith) at that instance.  Or to look at it another way, Sidereal Time is the time that has elapsed since the Vernal Equinox (or first point of Aries) has passed overhead.  The sidereal time must always be known when attempting to locate objects in the sky based only on their given coordinates.</P>
+
+<P>Below the time displays, the current Gregorian date is shown along with the current location and its coordinates.  These are shown merely for reference.</P>
+
+<P>The Delta T value is displayed for reference.  This value is used when converting from Universal time (UT) to Barycentric Dynamical Time (TDB).  If you have set the current time and selected the Set Dynamical Time option, this value will be zero (0.0), otherwise it displays the number of seconds added to UT to produce TDB.</P>
+
+<P>The final values displayed are the Julian Date (JD  and the Julian Ephemeris Day (JDE).  The Julian date is the number of days, and fractional days, since January 1, 4713 B.C., at 12:00 Universal Time.  The Julian date is the current date on the Prime Meridian which runs through Greenwich, England and is therefore a function of the Universal Time (UT1).  JDE is the Julian date corrected by Delta T.  This value is used in all of the Ephemeris and Sidereal calculations.</P>
+
+</BODY>
+</HTML>

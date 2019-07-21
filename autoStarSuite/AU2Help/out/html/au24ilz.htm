@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Options Max Baud Rate Command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="Autostar II">
+	<PARAM NAME="Keyword" VALUE="connections">
+	<PARAM NAME="Keyword" VALUE="options">
+</OBJECT>
+
+<P><A NAME="9w00h7"></A><B>Max Baud Rate (Options menu – Autostar II Only)</B></P>
+
+<P>This option specifies the maximum baud rate to use for serial communication between the Autostar II and the PC.  By default, data is transferred to and from the Autostar II at 57,600 baud or 9,600 baud, depending on the context.  However, if you are finding that objects are not being successfully sent to or retrieved from the Autostar II, you may try specifying a lower max baud rate.  This will slow down the data transfer process, but should increase reliability.</P>
+
+<P>Please note that when the max baud rate is changed, a command is sent to the Autostar II specifying the new baud rate.  Therefore if you are using ASU with multiple handboxes, you cannot simply switch the handbox – the new handbox will not be aware of the changed baud rate.  Use the Max Baud Rate option to tell the handbox which baud rate to use.  Upon startup, the Autostar II is listening at 9,600 baud, and a <A HREF="au29s4y.htm">Connect</A> command from ASU will initially attempt this rate, so if ASU and Autostar II ever become unsynchronized, simply restart the Autostar II and/or ASU.</P>
+
+<P>The #494/#495/#497/LX-90 Autostar handboxes always communicate at 9,600 baud, therefore this option is not available.</P>
+
+</BODY>
+</HTML>

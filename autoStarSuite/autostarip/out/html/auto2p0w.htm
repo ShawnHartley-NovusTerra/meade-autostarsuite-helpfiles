@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Image RGB Merge command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="rgb merging">
+</OBJECT>
+
+<P><A NAME="5780"></A><B>RGB Merge (Process menu)</B></P>
+
+<P>The <B>RGB Merge</B> command produces a full color image by combining three separate grayscale images, one exposed through a red filter, another exposed through a green filter, and the last exposed through a blue filter   This is accomplished by either directly generating 24 bit color images on most displays or by analyzing all of the possible colors in the image, then using a proprietary algorithm to choose the best colors to take full advantage of the 256 color system palette.</P>
+
+<P><IMG SRC="../images/bm27.gif" ALT="" BORDER=0></P>
+
+<P>The <B>RGB Merge</B> command also allows you to modify the color balance of the final color image.  Increasing the scale factor for an individual color, increases the intensity of that color in the resulting image, decreasing the scale factor decreases the overall intensity of that color in the image.</P>
+
+<P>Each of the scale factors can be used separately or together to achieve any desired color balance.  For example, if the resulting image is too magenta, you might try lowering BOTH the red and blue scale factors, or you may try increasing the green scale factor to achieve the same effect.</P>
+
+<P>The scale factors may also be automatically determined by using the <B>RGB Gray Balance</B> function from the <B>Image Utilities</B> dialog box.  To automatically balance the colors in the image, first locate an area in the image that should be white, or any neutral gray value such as a medium brightness star.  Then draw a box around the object by depressing the <B>left</B> mouse button and dragging the box to the desired size.  When the button is released, the <B>Image Utilities</B> dialog box will be displayed.  If all three RGB buffers contain valid images, the <B>RGB Gray Balance</B> item will be enabled.  Upon selecting the <B>RGB Gray Balance</B> function, the scale factors for each color will be determined and will automatically merge the buffers to produce a new image.  The resulting image will show your selected object as a shade of gray.</P>
+
+<P>If you are generating 8 bit color images, the <B>Quantum Level</B> field allows you to influence the behavior of the color selection algorithm.  If the resulting image contains a very large number of colors, lowering the Quantum Level decreases the number of resulting colors.  Similarly, raising the value increases the number of colors, up to the maximum number of colors contained in the image.  When the number of colors found in the resulting image closely matches the number of colors used in the image, you will notice a marked increase in the speed of the merging process.</P>
+
+<P>When the command is complete, the number of colors that were found and the number of colors used in the resulting image are displayed.  You should modify the number of Quantum Levels (in the RGB Merge dialog box) so that the two values are fairly close together.  Generally, finding 300 to 400 colors results in the best image.  Using a large number of colors results in an image that has a very small change in colors,  using fewer colors increases the color differences seen in the image</P>
+
+<P>The resulting color image has its own unique palette, subsequent image processing, such as scaling, generally gives poor results.  You should first scale the individual red, green, or blue grayscale images, then combine them using the <B>RGB Merge</B> command.</P>
+
+<P>To preserve the color palette, the color image must be saved in the BMP format.</P>
+
+<P>Frequently, many composite RGB images are not perfectly registered, the telescope may have moved between the exposures.  This results in one or more of the images being offset from the other images.  The Offsets the X (horizontal) direction or the Y (vertical) direction one pixel at a time for each of the Red, Green, and Blue image files.</P>
+
+<P>After the image is first merged, you should examine some prominent part of the image using the <B>Magnifier</B>.  If color fringes are noticed over the entire image, one or more of the separate images needs to be aligned with the others.  Count the number of pixels that the images appear to be offset, then set the value in the appropriate red, green or blue X or Y offset fields.  When the images are re-merged, the new offset values will be used.</P>
+
+<P>If the images were taken from a telescope that was not properly Polar aligned, the resulting images may also show some rotation from one image to the next,  The RGB alignment may help reduce the effect slightly, but cannot correct for the rotation.</P>
+
+<P>The individual offsets may also be automatically determined by using the <B>RGB Alignment</B> function from the <B>Image Utilities</B> dialog box.  To automatically align the images, first locate an area in the image that contains a well defined single object, such as a star.  Then draw a box around the object by depressing the <B>left</B> mouse button and dragging the box to the desired size.  When the button is released, the <B>Image Utilities</B> dialog box will be displayed.  If all three RGB buffers contain valid images, the RGB Alignment item will be enabled.  Upon selecting the auto alignment function, the X and Y offsets for each image will be determined and will automatically merge the buffers to produce a new image.</P>
+
+</BODY>
+</HTML>

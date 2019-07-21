@@ -1,0 +1,201 @@
+<HTML>
+<!-- Sitemap 1.0 -->
+<OBJECT type="text/site properties">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="blinking images">
+		<param name="Name" value="Image Blink command">
+		<param name="Local" value="html/auto48yp.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="calibrating images">
+		<param name="Name" value="Image Calibrate command">
+		<param name="Local" value="html/auto8sh1.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="closing files">
+		<param name="Name" value="File Close command">
+		<param name="Local" value="html/auto7wof.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="contouring">
+		<param name="Name" value="Tools Contour command">
+		<param name="Local" value="html/auto8z6n.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="convolution">
+		<param name="Name" value="Image Convolution command">
+		<param name="Local" value="html/auto0eew.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="coordinate display">
+		<param name="Name" value="Tools Coordinates command">
+		<param name="Local" value="html/auto3uw7.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="cropping images">
+		<param name="Name" value="Image Utilities dialog box">
+		<param name="Local" value="html/auto8m44.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="distance measurement">
+		<param name="Name" value="Image Utilities dialog box">
+		<param name="Local" value="html/auto8m44.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="exit">
+		<param name="Name" value="File Exit command">
+		<param name="Local" value="html/auto3lbm.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="files">
+		<param name="See Also" value="files">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Keyword" value="managing">
+			<param name="Name" value="File Open command">
+			<param name="Local" value="html/auto9393.htm">
+			<param name="Name" value="File Save As command">
+			<param name="Local" value="html/auto531l.htm">
+			<param name="Name" value="File Save As command">
+			<param name="Local" value="html/auto4at3.htm">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="flip image">
+		<param name="Name" value="Tools Flip Image command">
+		<param name="Local" value="html/auto1crv.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="histogram display">
+		<param name="Name" value="Tools Histogram command">
+		<param name="Local" value="html/auto20o3.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="image information">
+		<param name="Name" value="Image Information command">
+		<param name="Local" value="html/auto41cy.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="listing pixel values">
+		<param name="Name" value="Image Utilities dialog box">
+		<param name="Local" value="html/auto8m44.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="magnifier">
+		<param name="Name" value="Tools Magnifier command">
+		<param name="Local" value="html/auto68ro.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="median filter">
+		<param name="Name" value="Image Median Filter command">
+		<param name="Local" value="html/auto9g0x.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="merging images">
+		<param name="Name" value="Image Merge command">
+		<param name="Local" value="html/auto7dps.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="night vision">
+		<param name="Name" value="Options Night Vision command">
+		<param name="Local" value="html/auto9gdo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="page setup">
+		<param name="Name" value="File Page Setup">
+		<param name="Local" value="html/auto59bn.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="palette selection">
+		<param name="Name" value="Image Palettes command">
+		<param name="Local" value="html/auto8sca.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="photometry">
+		<param name="Name" value="Image Utilities dialog box">
+		<param name="Local" value="html/auto8m44.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="prescale">
+		<param name="Name" value="Prescaling 12 or 16 bit images">
+		<param name="Local" value="html/auto1rjo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="printer setup">
+		<param name="Name" value="File Printer Setup command">
+		<param name="Local" value="html/auto9z51.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="printing starmaps">
+		<param name="Name" value="File Print command">
+		<param name="Local" value="html/auto759v.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="Process overview">
+		<param name="Name" value="Process Overview">
+		<param name="Local" value="html/auto0001.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="profiles">
+		<param name="Name" value="Image Utilities dialog box">
+		<param name="Local" value="html/auto8m44.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="rescaling image size">
+		<param name="Name" value="Tools Rescale Image Size command">
+		<param name="Local" value="html/auto2sdv.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="RGB auto alignment">
+		<param name="Name" value="Image Utilities dialog box">
+		<param name="Local" value="html/auto8m44.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="RGB gray balance">
+		<param name="Name" value="Image Utilities dialog box">
+		<param name="Local" value="html/auto8m44.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="rgb merging">
+		<param name="Name" value="Image RGB Merge command">
+		<param name="Local" value="html/auto2p0w.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="rotating images">
+		<param name="Name" value="Tools Rotate Image command">
+		<param name="Local" value="html/auto0veg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="scaling images">
+		<param name="Name" value="Image Scale command">
+		<param name="Local" value="html/auto0v1x.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="setup status bar">
+		<param name="Name" value="File Setup Status Bar command">
+		<param name="Local" value="html/auto3n05.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="toolbar">
+		<param name="Name" value="toolbar">
+		<param name="Local" value="html/auto2wz8.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="tools">
+		<param name="Name" value="Tools Overview">
+		<param name="Local" value="html/auto0002.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="undo">
+		<param name="Name" value="Image Undo command">
+		<param name="Local" value="html/auto3fxw.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Keyword" value="unsharp masking">
+		<param name="Name" value="Image Unsharp Masking command">
+		<param name="Local" value="html/auto19x5.htm">
+		</OBJECT>
+</UL></HTML>

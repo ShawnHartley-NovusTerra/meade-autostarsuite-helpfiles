@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Real Time Mode</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="real time mode">
+	<PARAM NAME="Keyword" VALUE="transfer objects">
+</OBJECT>
+
+<P><A NAME="1mp7gy1"></A><B>Real Time Mode (Autostar Commands Button Group – Autostar II Only)</B></P>
+
+<P>Pressing this button puts an Autostar II handbox into Real Time Mode - a powerful method for transferring objects from the PC to the handbox, without having to upload the entire contents of the <A HREF="au24xf2.htm">Handbox List View</A> to the handbox.</P>
+
+<P>In normal Autostar Update operation, the contents of the Autostar’s user memory must be entirely downloaded to the PC, modifications made, and then entirely sent back to the Autostar.  With large collections of data, this can require a long time as the data is first received, and then sent back.  If the user’s intentions are just to modify a few objects, or send a few new objects to the handbox, it is superfluous to transfer every object in the collection back and forth.</P>
+
+<P>However, with Real Time Mode activated, the user can more speedily transfer or modify a few objects than in normal operation.  When the Real Time Mode button is pressed, the current contents of the handbox are downloaded to the PC once.  The <A HREF="au24xf2.htm">Handbox List View</A> is colored light-red to indicate Real Time Mode is activated.  Any changes to the Handbox List View will then be IMMEDIATELY made to the data in the handbox as well.  Only the objects modified will be sent back to the handbox, instead of the entire collection.</P>
+
+<P>Of course, there are trade-offs with using Real Time Mode:</P>
+
+<P>·Performance of transferring data is much slower in Real Time Mode, since the algorithms are optimized for transferring a few objects instead of a large collection.</P>
+
+<P>·Verify Mode is not available in Real Time Mode.</P>
+
+<P>·The handbox processor is being worked harder in Real Time Mode, therefore problems may emerge if the processor is simultaneously asked to perform a telescope function such as slewing or tracking.</P>
+
+<P>To get the best performance with Real Time Mode, the following guidelines should be followed:</P>
+
+<P>·Set the handbox to a menu with a static display, such as "Select Item: -&gt; Setup" (DO NOT use Real Time Mode when there is scrolling text on the display, or during the initialization prompts such as the Sun Warning).</P>
+
+<P>·Use Real Time Mode only when making relatively few modifications to the handbox data, perhaps less than 30 objects.  It is possible to transfer large amounts of data in this mode, but the performance will be better in the normal mode.</P>
+
+<P>·To see the results of changes in the handbox, the object selection list must be exited, and the re-entered.</P>
+
+<P>Note that Real Time Mode works by synchronizing the contents of the <A HREF="au24xf2.htm">Handbox List View</A> with the contents of the handbox.  If this synchronization is lost or any data errors occur, immediately exit Real Time Mode, perform a <A HREF="au284j4.htm">Garbage Collect Hbx</A>, and then re-active Real Time Mode if desired.</P>
+
+</BODY>
+</HTML>

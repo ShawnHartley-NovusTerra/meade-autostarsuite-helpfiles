@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Tools Rotate Image command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="rotating images">
+</OBJECT>
+
+<P><A NAME="22r4ubx"></A><B>Rotate Image (Process menu)</B></P>
+
+<P>The currently displayed image can be rotated in steps of either +90 degrees (counter-clockwise) or -90 degrees (clockwise) using the <B>Rotate Image</B> command.</P>
+
+<P><B>Rotate Image</B> must physically move the image data from one axis to the other.  This changes the orientation of the image in memory, therefore, subsequent buffer functions, such as merging, may not function properly.  To preclude these problems,  the contents of the buffers are destroyed before the rotation takes place.  You should then copy the rotated image into the desired buffer(s).  After the command is complete, the newly rotated image is automatically copied into Buffer A.</P>
+
+</BODY>
+</HTML>

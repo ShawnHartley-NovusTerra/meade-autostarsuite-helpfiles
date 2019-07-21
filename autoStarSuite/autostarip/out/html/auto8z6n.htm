@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Tools Contour command</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+
+<OBJECT TYPE="application/x-oleobject" CLASSID="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+	<PARAM NAME="Keyword" VALUE="contouring">
+</OBJECT>
+
+<P><A NAME="ogceu_"></A><B>Contour (View menu)</B></P>
+
+<P>The contour function allows you to perform an isophote analysis of the current image.  This is accomplished by drawing contour lines over the existing image.  The spacing of these lines is controlled by the <B>Contour Interval</B> value.  For example, if the interval is set to 16, then a contour line will be drawn at pixel value 16, 32, 48, etc..  This function is useful when trying to determine the same of any diffuse object such as a comet or galaxy.  Using the <B>Posterize</B> function in the <A HREF="auto0v1x.htm">Image Scale</A> utility will provide an alternate method that is also useful when determining the shape of an object.</P>
+
+<P>The contour process begins by building an Unsharp Mask of the current image.  This is a smoothed (blurred) version of the original image.  Then the contouring algorithm is run using the smoothed image.  The resulting contour lines are then drawn over the current image.  To vary the effect of the contouring, the <B>Region Size</B> parameter can be changed to any desired value, a low value (3 or 4) gives a very ragged contour line, a large value (11 or 12) provides a smooth contour.  The default value of 7 is useful in most images.  You may need to experiment with different values to get the correct response for any given image.</P>
+
+<P>Since building the unsharp mask may take considerable time, you may choose to redraw the contour lines without building a new mask by selecting the <B>Contour Only</B> button.  This is useful when trying different contour intervals.  Remember to <B>Undo</B> the last contouring to remove the old contour lines before trying the new interval values.  The unsharp mask will remain in Buffer B even after the Undo.  The default mode is to always build a new unsharp mask before drawing the contour lines.</P>
+
+<P><B>Short Cut:</B><IMG SRC="../images/bm14.gif" ALT="" BORDER=0></P>
+
+</BODY>
+</HTML>
